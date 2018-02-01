@@ -6,5 +6,9 @@ new_train/embeddings/normal_2048.txt
 merge/data/MRCONSO.RRF
 merge/data/drugbank_full.xml
 
+merge/hetionet
+merge/data/hetionet/hetnet_nodes.csv
+merge/data/hetionet/hetnet_edges.csv
+
 .ipynb_checkpoints/
 venv/
