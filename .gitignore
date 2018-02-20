@@ -10,5 +10,7 @@ merge/hetionet
 merge/data/hetionet/hetnet_nodes.csv
 merge/data/hetionet/hetnet_edges.csv
 
+merge/merged_network
+
 .ipynb_checkpoints/
 venv/
