@@ -1,0 +1,82 @@
+source_stype	target_stype	etype	count	orig	final_etype
+Anatomy	Anatomy	LOCATION_OF_AloA	267214	semmed	LOCATION_OF_AloA
+Anatomy	Chemicals & Drugs	LOCATION_OF_AloCD	996348	semmed	LOCATION_OF_AloCD
+Anatomy	Disorders	LOCATION_OF_AloDO	520885	semmed	LOCATION_OF_AloDO
+Anatomy	Genes & Molecular Sequences	LOCATION_OF_AloG	534310	semmed	EXPRESSES_AeG
+Anatomy	Genes & Molecular Sequences	EXPRESSES_AeG	526407	h	EXPRESSES_AeG
+Anatomy	Genes & Molecular Sequences	DOWNREGULATES_AdG	102240	h	DOWNREGULATES_AdG
+Anatomy	Genes & Molecular Sequences	UPREGULATES_AuG	97848	h	UPREGULATES_AuG
+Anatomy	Living Beings	PART_OF_Apo>LB	133351	semmed	PART_OF_Apo>LB
+Anatomy	Living Beings	LOCATION_OF_AloLB	36757	semmed	LOCATION_OF_AloLB
+Anatomy	Physiology	LOCATION_OF_AloPS	29184	semmed	LOCATION_OF_AloPS
+Chemicals & Drugs	Anatomy	AFFECTS_CDafA	313572	semmed	AFFECTS_CDafA
+Chemicals & Drugs	Anatomy	CAUSES_CcSE	36	h	AFFECTS_CDafA
+Chemicals & Drugs	Chemicals & Drugs	REGULATES_CDreg>CD	814972	semmed	REGULATES_CDreg>CD
+Chemicals & Drugs	Chemicals & Drugs	RELATED_TO_CDrtCD	216035	semmed	RELATED_TO_CDrtCD
+Chemicals & Drugs	Chemicals & Drugs	RESEMBLES_CrC	6486	h	RELATED_TO_CDrtCD
+Chemicals & Drugs	Chemicals & Drugs	INCLUDES_PCiC	920	h	RELATED_TO_CDrtCD
+Chemicals & Drugs	Disorders	CAUSES_CcSE	137458	h	CAUSES_CcDO
+Chemicals & Drugs	Genes & Molecular Sequences	INTERACTS_WITH_CDiwG	705394	semmed	INTERACTS_WITH_CDiwG
+Chemicals & Drugs	Genes & Molecular Sequences	STIMULATES_CDstG	373978	semmed	STIMULATES_CDstG
+Chemicals & Drugs	Genes & Molecular Sequences	INHIBITS_CDinG	235809	semmed	INHIBITS_CDinG
+Chemicals & Drugs	Genes & Molecular Sequences	DOWNREGULATES_CdG	21102	h	INHIBITS_CDinG
+Chemicals & Drugs	Genes & Molecular Sequences	UPREGULATES_CuG	18756	h	STIMULATES_CDstG
+Chemicals & Drugs	Genes & Molecular Sequences	BINDS_CbG	11571	h	INTERACTS_WITH_CDiwG
+Chemicals & Drugs	Living Beings	TREATS_CDtLB	101489	semmed	TREATS_CDtLB
+Chemicals & Drugs	Living Beings	ADMINISTERED_TO_CDatLB	61085	semmed	ADMINISTERED_TO_CDatLB
+Chemicals & Drugs	Phenomena	AFFECTS_CDafPH	74460	semmed	AFFECTS_CDafPH
+Chemicals & Drugs	Phenomena	CAUSES_CcSE	164	h	AFFECTS_CDafPH
+Chemicals & Drugs	Phenomena	RESEMBLES_CrC	3	h	AFFECTS_CDafPH
+Chemicals & Drugs	Physiology	AUGMENTS_CDagPS	222088	semmed	AUGMENTS_CDagPS
+Chemicals & Drugs	Physiology	DISRUPTS_CDdsPS	177044	semmed	DISRUPTS_CDdsPS
+Chemicals & Drugs	Physiology	CAUSES_CcSE	1286	h	AUGMENTS_CDagPS
+Disorders	Anatomy	LOCALIZES_DlA	3602	h	LOCALIZES_DOlA
+Disorders	Chemicals & Drugs	INCLUDES_PCiC	1	h	delete
+Disorders	Disorders	ASSOCIATED_WITH_DOawDO	690653	semmed	ASSOCIATED_WITH_DOawDO
+Disorders	Disorders	PRESENTS_DpS	3307	h	ASSOCIATED_WITH_DOawDO
+Disorders	Disorders	RESEMBLES_DrD	543	h	ASSOCIATED_WITH_DOawDO
+Disorders	Disorders	LOCALIZES_DlA	23	h	ASSOCIATED_WITH_DOawDO
+Disorders	Genes & Molecular Sequences	ASSOCIATES_DaG	12623	h	ASSOCIATES_DOaG
+Disorders	Genes & Molecular Sequences	UPREGULATES_DuG	7731	h	STIMULATES_DOstG
+Disorders	Genes & Molecular Sequences	DOWNREGULATES_DdG	7623	h	INHIBITS_DOinG
+Disorders	Genes & Molecular Sequences	EXPRESSES_AeG	25	h	ASSOCIATES_DOaG
+Disorders	Living Beings	AFFECTS_DOafLB	450584	semmed	AFFECTS_DOafLB
+Disorders	Physiology	CAUSES_DOcPS	54448	semmed	CAUSES_DOcPS
+Disorders	Physiology	PRESENTS_DpS	71	h	CAUSES_DOcPS
+Disorders	Physiology	LOCALIZES_DlA	7	h	CAUSES_DOcPS
+Genes & Molecular Sequences	Anatomy	AFFECTS_GafA	124156	semmed	AFFECTS_GafA
+Genes & Molecular Sequences	Anatomy	PARTICIPATES_GpCC	73542	h	AFFECTS_GafA
+Genes & Molecular Sequences	Anatomy	PARTICIPATES_GpBP	159	h	AFFECTS_GafA
+Genes & Molecular Sequences	Chemicals & Drugs	PARTICIPATES_GpMF	6	h	delete
+Genes & Molecular Sequences	Disorders	ASSOCIATED_WITH_GawDO	289269	semmed	ASSOCIATED_WITH_GawDO
+Genes & Molecular Sequences	Disorders	AUGMENTS_GagDO	133583	semmed	AUGMENTS_GagDO
+Genes & Molecular Sequences	Disorders	INHIBITS_GinDO	108862	semmed	INHIBITS_GinDO
+Genes & Molecular Sequences	Disorders	PARTICIPATES_GpBP	1442	h	ASSOCIATED_WITH_GawDO
+Genes & Molecular Sequences	Genes & Molecular Sequences	REGULATES_GrG	265672	h	REGULATES_Greg>G
+Genes & Molecular Sequences	Genes & Molecular Sequences	INTERACTS_WITH_GiwG	235187	semmed	INTERACTS_WITH_GiwG
+Genes & Molecular Sequences	Genes & Molecular Sequences	REGULATES_Greg>G	198435	semmed	REGULATES_Greg>G
+Genes & Molecular Sequences	Genes & Molecular Sequences	INTERACTS_GiG	147164	h	INTERACTS_WITH_GiwG
+Genes & Molecular Sequences	Genes & Molecular Sequences	COVARIES_GcG	61690	h	INTERACTS_WITH_GiwG
+Genes & Molecular Sequences	Living Beings	PART_OF_GpoLB	205720	semmed	PART_OF_GpoLB
+Genes & Molecular Sequences	Living Beings	PARTICIPATES_GpCC	12	h	PART_OF_GpoLB
+Genes & Molecular Sequences	Pathway	PARTICIPATES_GpPW	84372	h	PARTICIPATES_GpPW
+Genes & Molecular Sequences	Phenomena	AFFECTS_GafPH	20314	semmed	AFFECTS_GafPH
+Genes & Molecular Sequences	Phenomena	PARTICIPATES_GpBP	4087	h	AFFECTS_GafPH
+Genes & Molecular Sequences	Physiology	PARTICIPATES_GpBP	555294	h	AFFECTS_GafPS
+Genes & Molecular Sequences	Physiology	AFFECTS_GafPS	250457	semmed	AFFECTS_GafPS
+Genes & Molecular Sequences	Physiology	PARTICIPATES_GpMF	97222	h	AFFECTS_GafPS
+Genes & Molecular Sequences	Physiology	PARTICIPATES_GpCC	12	h	AFFECTS_GafPS
+Living Beings	Chemicals & Drugs	PRODUCES_LBpdCD	449085	semmed	PRODUCES_LBpdCD
+Living Beings	Disorders	CAUSES_LBcDO	47773	semmed	CAUSES_LBcDO
+Living Beings	Living Beings	ISA_LBi>LB	72658	semmed	ISA_LBi>LB
+Living Beings	Living Beings	INTERACTS_WITH_LBiwLB	35328	semmed	INTERACTS_WITH_LBiwLB
+Phenomena	Chemicals & Drugs	RESEMBLES_CrC	1	h	delete
+Phenomena	Disorders	AFFECTS_PHafDO	33382	semmed	AFFECTS_PHafDO
+Phenomena	Genes & Molecular Sequences	BINDS_CbG	43	h	AFFECTS_PHafG
+Phenomena	Physiology	AFFECTS_PHafPS	22460	semmed	AFFECTS_PHafPS
+Physiology	Chemicals & Drugs	ASSOCIATED_WITH_PSawCD	32409	semmed	ASSOCIATED_WITH_PSawCD
+Physiology	Chemicals & Drugs	INCLUDES_PCiC	108	h	ASSOCIATED_WITH_PSawCD
+Physiology	Disorders	AFFECTS_PSafDO	135830	semmed	AFFECTS_PSafDO
+Physiology	Living Beings	PROCESS_OF_PSpro>LB	126722	semmed	PROCESS_OF_PSpro>LB
+Physiology	Living Beings	AFFECTS_PSafLB	13999	semmed	AFFECTS_PSafLB
+Physiology	Physiology	AFFECTS_PSafPS	101491	semmed	AFFECTS_PSafPS
