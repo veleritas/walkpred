@@ -3,5 +3,14 @@ new_train/embeddings/normal_512.txt
 new_train/embeddings/normal_1024.txt
 new_train/embeddings/normal_2048.txt
 
+merge/data/MRCONSO.RRF
+merge/data/drugbank_full.xml
+
+merge/hetionet
+merge/data/hetionet/hetnet_nodes.csv
+merge/data/hetionet/hetnet_edges.csv
+
+merge/merged_network
+
 .ipynb_checkpoints/
 venv/

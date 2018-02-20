@@ -1,0 +1,82 @@
+source_stype	target_stype	etype	count	orig
+Anatomy	Anatomy	LOCATION_OF_AloA	267214	semmed
+Anatomy	Chemicals & Drugs	LOCATION_OF_AloCD	996348	semmed
+Anatomy	Disorders	LOCATION_OF_AloDO	520885	semmed
+Anatomy	Genes & Molecular Sequences	LOCATION_OF_AloG	534310	semmed
+Anatomy	Genes & Molecular Sequences	EXPRESSES_AeG	526407	h
+Anatomy	Genes & Molecular Sequences	DOWNREGULATES_AdG	102240	h
+Anatomy	Genes & Molecular Sequences	UPREGULATES_AuG	97848	h
+Anatomy	Living Beings	PART_OF_Apo>LB	133351	semmed
+Anatomy	Living Beings	LOCATION_OF_AloLB	36757	semmed
+Anatomy	Physiology	LOCATION_OF_AloPS	29184	semmed
+Chemicals & Drugs	Anatomy	AFFECTS_CDafA	313572	semmed
+Chemicals & Drugs	Anatomy	CAUSES_CcSE	36	h
+Chemicals & Drugs	Chemicals & Drugs	REGULATES_CDreg>CD	814972	semmed
+Chemicals & Drugs	Chemicals & Drugs	RELATED_TO_CDrtCD	216035	semmed
+Chemicals & Drugs	Chemicals & Drugs	RESEMBLES_CrC	6486	h
+Chemicals & Drugs	Chemicals & Drugs	INCLUDES_PCiC	920	h
+Chemicals & Drugs	Disorders	CAUSES_CcSE	137458	h
+Chemicals & Drugs	Genes & Molecular Sequences	INTERACTS_WITH_CDiwG	705394	semmed
+Chemicals & Drugs	Genes & Molecular Sequences	STIMULATES_CDstG	373978	semmed
+Chemicals & Drugs	Genes & Molecular Sequences	INHIBITS_CDinG	235809	semmed
+Chemicals & Drugs	Genes & Molecular Sequences	DOWNREGULATES_CdG	21102	h
+Chemicals & Drugs	Genes & Molecular Sequences	UPREGULATES_CuG	18756	h
+Chemicals & Drugs	Genes & Molecular Sequences	BINDS_CbG	11571	h
+Chemicals & Drugs	Living Beings	TREATS_CDtLB	101489	semmed
+Chemicals & Drugs	Living Beings	ADMINISTERED_TO_CDatLB	61085	semmed
+Chemicals & Drugs	Phenomena	AFFECTS_CDafPH	74460	semmed
+Chemicals & Drugs	Phenomena	CAUSES_CcSE	164	h
+Chemicals & Drugs	Phenomena	RESEMBLES_CrC	3	h
+Chemicals & Drugs	Physiology	AUGMENTS_CDagPS	222088	semmed
+Chemicals & Drugs	Physiology	DISRUPTS_CDdsPS	177044	semmed
+Chemicals & Drugs	Physiology	CAUSES_CcSE	1286	h
+Disorders	Anatomy	LOCALIZES_DlA	3602	h
+Disorders	Chemicals & Drugs	INCLUDES_PCiC	1	h
+Disorders	Disorders	ASSOCIATED_WITH_DOawDO	690653	semmed
+Disorders	Disorders	PRESENTS_DpS	3307	h
+Disorders	Disorders	RESEMBLES_DrD	543	h
+Disorders	Disorders	LOCALIZES_DlA	23	h
+Disorders	Genes & Molecular Sequences	ASSOCIATES_DaG	12623	h
+Disorders	Genes & Molecular Sequences	UPREGULATES_DuG	7731	h
+Disorders	Genes & Molecular Sequences	DOWNREGULATES_DdG	7623	h
+Disorders	Genes & Molecular Sequences	EXPRESSES_AeG	25	h
+Disorders	Living Beings	AFFECTS_DOafLB	450584	semmed
+Disorders	Physiology	CAUSES_DOcPS	54448	semmed
+Disorders	Physiology	PRESENTS_DpS	71	h
+Disorders	Physiology	LOCALIZES_DlA	7	h
+Genes & Molecular Sequences	Anatomy	AFFECTS_GafA	124156	semmed
+Genes & Molecular Sequences	Anatomy	PARTICIPATES_GpCC	73542	h
+Genes & Molecular Sequences	Anatomy	PARTICIPATES_GpBP	159	h
+Genes & Molecular Sequences	Chemicals & Drugs	PARTICIPATES_GpMF	6	h
+Genes & Molecular Sequences	Disorders	ASSOCIATED_WITH_GawDO	289269	semmed
+Genes & Molecular Sequences	Disorders	AUGMENTS_GagDO	133583	semmed
+Genes & Molecular Sequences	Disorders	INHIBITS_GinDO	108862	semmed
+Genes & Molecular Sequences	Disorders	PARTICIPATES_GpBP	1442	h
+Genes & Molecular Sequences	Genes & Molecular Sequences	REGULATES_GrG	265672	h
+Genes & Molecular Sequences	Genes & Molecular Sequences	INTERACTS_WITH_GiwG	235187	semmed
+Genes & Molecular Sequences	Genes & Molecular Sequences	REGULATES_Greg>G	198435	semmed
+Genes & Molecular Sequences	Genes & Molecular Sequences	INTERACTS_GiG	147164	h
+Genes & Molecular Sequences	Genes & Molecular Sequences	COVARIES_GcG	61690	h
+Genes & Molecular Sequences	Living Beings	PART_OF_GpoLB	205720	semmed
+Genes & Molecular Sequences	Living Beings	PARTICIPATES_GpCC	12	h
+Genes & Molecular Sequences	Pathway	PARTICIPATES_GpPW	84372	h
+Genes & Molecular Sequences	Phenomena	AFFECTS_GafPH	20314	semmed
+Genes & Molecular Sequences	Phenomena	PARTICIPATES_GpBP	4087	h
+Genes & Molecular Sequences	Physiology	PARTICIPATES_GpBP	555294	h
+Genes & Molecular Sequences	Physiology	AFFECTS_GafPS	250457	semmed
+Genes & Molecular Sequences	Physiology	PARTICIPATES_GpMF	97222	h
+Genes & Molecular Sequences	Physiology	PARTICIPATES_GpCC	12	h
+Living Beings	Chemicals & Drugs	PRODUCES_LBpdCD	449085	semmed
+Living Beings	Disorders	CAUSES_LBcDO	47773	semmed
+Living Beings	Living Beings	ISA_LBi>LB	72658	semmed
+Living Beings	Living Beings	INTERACTS_WITH_LBiwLB	35328	semmed
+Phenomena	Chemicals & Drugs	RESEMBLES_CrC	1	h
+Phenomena	Disorders	AFFECTS_PHafDO	33382	semmed
+Phenomena	Genes & Molecular Sequences	BINDS_CbG	43	h
+Phenomena	Physiology	AFFECTS_PHafPS	22460	semmed
+Physiology	Chemicals & Drugs	ASSOCIATED_WITH_PSawCD	32409	semmed
+Physiology	Chemicals & Drugs	INCLUDES_PCiC	108	h
+Physiology	Disorders	AFFECTS_PSafDO	135830	semmed
+Physiology	Living Beings	PROCESS_OF_PSpro>LB	126722	semmed
+Physiology	Living Beings	AFFECTS_PSafLB	13999	semmed
+Physiology	Physiology	AFFECTS_PSafPS	101491	semmed
