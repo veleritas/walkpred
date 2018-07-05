@@ -164,7 +164,8 @@ def work(fbase):
 def main():
     global edges
 
-    for edge_fname in glob("tmp/edges/*.tsv"):
+    for edge_fname in glob("tmp/edges/*_0_kept.tsv"):
+#    for edge_fname in glob("tmp/edges/*.tsv"):
         edges = pd.read_csv(edge_fname, sep='\t', low_memory=False)
         fbase = edge_fname.split("/")[2][:-4]
 
