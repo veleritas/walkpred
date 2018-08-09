@@ -113,26 +113,24 @@ def add_uids(df):
 def build_adjlist(train, edges, idx):
     adjlist = defaultdict(set)
 
-    for dfindex, row in tqdm(edges.iterrows(), desc="Building", total=len(edges)):
-        suid = row["source_uid"]
-        tuid = row["target_uid"]
+#    for dfindex, row in tqdm(edges.iterrows(), desc="Building", total=len(edges)):
+#        suid = row["source_uid"]
+#        tuid = row["target_uid"]
 
-        # this was the problem?!
+        # seems like zip does not preserve order for some reason?
 
-#    for suid, tuid in tqdm(
-#        zip(edges["source_uid"], edges["target_uid"]),
-#        desc="Building",
-#        total=len(edges)
-#    ):
+    for suid, tuid in tqdm(
+        zip(edges["source_uid"], edges["target_uid"]),
+        desc="Building",
+        total=len(edges)
+    ):
 
         adjlist[suid].add(tuid)
         adjlist[tuid].add(suid)
 
     # write to file
 
-    fname = "data/min_hetionet/test/new_adjlist_{}.txt".format(idx)
-
-#    fname = "data/min_hetionet/test/adjlist_{}.txt".format(idx)
+    fname = "data/min_hetionet/test/adjlist_{}.txt".format(idx)
     with open(fname, "w") as fout:
         for key, vals in tqdm(adjlist.items(), desc="Saving"):
             vals = sorted(list(vals))
@@ -141,7 +139,7 @@ def build_adjlist(train, edges, idx):
             fout.write("{} {}\n".format(key, " ".join(vals)))
 
 def main():
-    K = 5
+    K = 2
     for idx in range(K):
         print("Splitting data for fold {}".format(idx))
         # sample gold standard and split
@@ -177,20 +175,20 @@ def main():
         )
 
 
-#        holdout.to_csv(
-#            "data/min_hetionet/test/holdout_{}.tsv".format(idx),
-#            sep='\t', index=False
-#        )
-#
-#        train.to_csv(
-#            "data/min_hetionet/test/train_{}.tsv".format(idx),
-#            sep='\t', index=False
-#        )
+        holdout.to_csv(
+            "data/min_hetionet/test/holdout_{}.tsv".format(idx),
+            sep='\t', index=False
+        )
+
+        train.to_csv(
+            "data/min_hetionet/test/train_{}.tsv".format(idx),
+            sep='\t', index=False
+        )
 
         # append gold training edges to network
         build_adjlist(train, temp_edges, idx)
 
-#        subprocess.run(["bash", "make_embedding.sh", str(idx)])
+        subprocess.run(["bash", "make_embedding.sh", str(idx)])
 
 if __name__ == "__main__":
     main()
